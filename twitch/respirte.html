@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<link rel="shortcut icon" href="images/favicon.ico">
+<TITLE>Respirte's twitch</TITLE>
+<STYLE>
+body
+{
+background: #7700b3;
+colour: #CCCCCC;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+</STYLE>
+<BODY>
+<div class="scrollmenu">
+  <a href="https://www.twitch.tv">Twitch</a>
+  <a href="cartmens.html">CartmenS</a>
+  <a href="crakie.html">Crakie</a>
+  <a href="cynaschism.html">Cynaschism</a>
+  <a href="djarii.html">Djarii</a>
+  <a href="kurrybrox.html">KurryBroX</a>
+  <a href="mramnesia8.html">MRAMNESIA8</a>
+  <a href="respirte.html">Respirte</a>  
+  <a href="thestrycker.html">TheStrycker</a>
+  <a href="testspirte.html">Testspirte</a>
+  <a href="https://www.twitch.tv/directory/following">Following</a>
+  <a href="https://www.twitch.tv/directory">Browse</a>
+</div>
+
+<script src= "http://player.twitch.tv/js/embed/v1.js"></script>
+<div id="<player div ID>"></div>
+<script type="text/javascript">
+  var options = {
+    width: 640,
+    height: 360,
+    channel: "Respirte",
+    video: "<video ID>",
+    collection: "<collection ID>",
+  };
+  var player = new Twitch.Player("<player div ID>", options);
+  player.setVolume(0.5);
+</script>
+
+</BODY>
+</HEAD>
+</HTML>
+
