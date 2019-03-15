@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head>
+    <title>SRL - Tool - EmpiresDofMW</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Main stylesheet -->
+<link rel="stylesheet" href="bingo/css/srlstyle.css" type="text/css">
+<!-- Main scripts -->
+<script src="bingo/script/ga.js" async="" type="text/javascript"></script>
+<script type="text/javascript" src="bingo/script/jquery.js"></script>
+<script type="text/javascript" src="bingo/script/trClicker.js"></script>
+<script type="text/javascript">
+    var srl = {}; // javascript holder
+
+    function NewCard() {
+        window.location = "?seed=" + (Math.floor(Math.random() * 999999) + 1)
+    }
+    function NewShortCard() {
+        window.location = "?seed=" + (Math.floor(Math.random() * 999999) + 1) + "&mode=short"
+    }
+    function NewLongCard() {
+        window.location = "?seed=" + (Math.floor(Math.random() * 999999) + 1) + "&mode=long"
+    }
+</script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="user">
+        </div>
+        <script src="bingo/script/seedrandom-min.js" type="text/javascript"></script>
+        <script src="bingo/script/bingo-v4.js" type="text/javascript"></script>
+        <script src="bingo/script/test-bingo.js" type="text/javascript"></script>
+        <div id="about_bingo">
+            <h2>
+                Generate a new card</h2>
+            <p style="margin-top: 20px;" id="sortButtons">
+                <a class="sortButton" href="javascript:NewCard();">New card</a>
+				<a class="sortButton" href="javascript:NewShortCard();">Short card</a>
+				<a class="sortButton" href="javascript:NewLongCard();">Long card</a></p>            
+			</p>
+            <h2 style="margin-top: 10px; padding-top: 0px">
+                About This Empires: Dawn of the Modern World Bingo Card</h2>
+            <p>
+                This is a "Bingo" board used for Empires: Dawn of the Modern World bingo card.</p>
+            <p>
+                </p>
+            <p>
+                </p>
+        </div>
+        <div id="results">
+            <table id="bingo" cellspacing="4" cellpadding="7">
+                <tr>
+                    <td id="slot1">
+                    </td>
+                    <td id="slot2">
+                    </td>
+                    <td id="slot3">
+                    </td>
+                    <td id="slot4">
+                    </td>
+                    <td id="slot5">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="slot6">
+                    </td>
+                    <td id="slot7">
+                    </td>
+                    <td id="slot8">
+                    </td>
+                    <td id="slot9">
+                    </td>
+                    <td id="slot10">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="slot11">
+                    </td>
+                    <td id="slot12">
+                    </td>
+                    <td id="slot13">
+                    </td>
+                    <td id="slot14">
+                    </td>
+                    <td id="slot15">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="slot16">
+                    </td>
+                    <td id="slot17">
+                    </td>
+                    <td id="slot18">
+                    </td>
+                    <td id="slot19">
+                    </td>
+                    <td id="slot20">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="slot21">
+                    </td>
+                    <td id="slot22">
+                    </td>
+                    <td id="slot23">
+                    </td>
+                    <td id="slot24">
+                    </td>
+                    <td id="slot25">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
