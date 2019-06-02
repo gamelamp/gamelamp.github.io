@@ -1,2 +1,5 @@
 libgdx.badlogicgames.com
 rbtray.sourceforge.net
+www.maxlaumeister.com/clientside-html-password/
+imagecolorpicker.com/en
+developers.google.com/cast/docs/developers#top_of_page
