@@ -3,3 +3,4 @@ rbtray.sourceforge.net
 www.maxlaumeister.com/clientside-html-password/
 imagecolorpicker.com/en
 developers.google.com/cast/docs/developers#top_of_page
+https://blog.glitchroy.win/2018/setting-up-git-for-game-maker-studio-2-in-5-minutes/
