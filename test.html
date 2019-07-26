@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<TITLE>TEST</TITLE>
+<STYLE>
+body
+{
+body{width:90%;margin:auto;min-width:600px;max-width:2000px};
+background: powderblue;
+colour: #CCCCCC;
+}
+
+</STYLE>
+<script type="text/javascript" src="gimmicks/Competella.json"></script>
+             <script type="text/javascript" >
+                function load() {
+                     var mydata = JSON.parse(data);
+                     alert(mydata.length);
+
+                     var div = document.getElementById('data');
+
+                     for(var i = 0;i < mydata.length; i++)
+                     {
+                        div.innerHTML = div.innerHTML + "<p class='inner' id="+i+">"+ mydata[i].name +"</p>" + "<br>";
+                     }
+                 }
+        </script>
+</HEAD>
+    <body onload="load()">
+    <div id= "data">
+
+    </div>
+    </body>
+</HTML>
