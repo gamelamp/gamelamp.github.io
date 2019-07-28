@@ -6,3 +6,5 @@ developers.google.com/cast/docs/developers#top_of_page
 https://blog.glitchroy.win/2018/setting-up-git-for-game-maker-studio-2-in-5-minutes/
 https://steamcommunity.com/groups/steamworks/announcements/detail/1597002662762032240
 https://www.draw.io/
+https://nooneiverse.wordpress.com/2016/05/05/gamemakerstudio-basic-udp/
+https://yal.cc/r/19/gmt/#faq
