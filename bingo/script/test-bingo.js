@@ -15,7 +15,7 @@ bingoList[2] = [
 ];
 bingoList[3] = [
   { name: "Have an army size between 2000-2050", types: ["army"] },
-  { name: "Have an army size of 200 with only ships", types: ["army"] },
+  { name: "Have an army size of 600 with only ships", types: ["army"] },
   { name: "Build a 3 layer wall of towers around your wonder", types: ["building"] },
   { name: "If on plains, build a castle in every corner", types: ["building"] },
   { name: "Win by only using planes", types: ["army"] }
