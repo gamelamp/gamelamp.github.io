@@ -61,6 +61,17 @@ img {
 .dropdown:hover .dropbtn {
     background-color: #03422500;
 }
+
+.clock {
+    position: absolute;
+    top: 98%;
+    left: 5%;
+    transform: translateX(-50%) translateY(-50%);
+    color: rgb(114, 10, 10);
+    font-size: 20px;
+    font-family: Amnesia;
+    letter-spacing: 7px;
+}
 </STYLE>
 </HEAD>
 <BODY>
@@ -79,6 +90,10 @@ img {
 </div>
 
 <img src="images/logo.png" alt="MRAMNESIA8" style="position:absolute; top:5%; right:0%"/>
+
+
+<div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+<script src="js/clock.js"></script>
 
 </BODY>
 </HTML>
